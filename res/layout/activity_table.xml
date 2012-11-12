@@ -1,0 +1,7 @@
+<RelativeLayout android:id="@+id/table_layout" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/table_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_margin="10dp" android:text="...:" android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignLeft="@+id/table_name" android:layout_alignParentBottom="true" android:layout_alignRight="@+id/table_name" android:layout_below="@+id/table_name" android:layout_marginBottom="10dp">
+        <LinearLayout android:id="@+id/table_records" android:layout_width="match_parent" android:layout_height="match_parent"></LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
